@@ -22,24 +22,24 @@
       }
     }
     &-picture1 {
-      width: 60%;
+      width: 60%; 
       height: 600px;
-      background-image: url(/img/gallery/pic1.png);
+      background-image: url(./../img/gallery/pic1.png);
       float: left;
     }
     &-picture2 {
-      background-image: url(/img/gallery/pic2.png);
+      background-image: url(./../img/gallery/pic2.png);
       float: right;
       margin-bottom: 20px;
     }
     &-picture3 {
-      background-image: url(/img/gallery/pic3.png);
+      background-image: url(./../img/gallery/pic3.png);
       float: right;
       background-position: bottom 2px right -100px;
     }
 
     &-picture4 {
-      background-image: url(/img/gallery/pic4.png);
+      background-image: url(./../img/gallery/pic4.png);
       width: 100%;
       float: left;
       margin-top: 20px;

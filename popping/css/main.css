@@ -178,7 +178,7 @@ body {
 
 .header {
   height: 700px;
-  background-image: url(/img/background/bg1.png);
+  background-image: url(./../img/background/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -456,24 +456,24 @@ body {
 .gallery__img-picture1 {
   width: 60%;
   height: 600px;
-  background-image: url(/img/gallery/pic1.png);
+  background-image: url(./../img/gallery/pic1.png);
   float: left;
 }
 
 .gallery__img-picture2 {
-  background-image: url(/img/gallery/pic2.png);
+  background-image: url(./../img/gallery/pic2.png);
   float: right;
   margin-bottom: 20px;
 }
 
 .gallery__img-picture3 {
-  background-image: url(/img/gallery/pic3.png);
+  background-image: url(./../img/gallery/pic3.png);
   float: right;
   background-position: bottom 2px right -100px;
 }
 
 .gallery__img-picture4 {
-  background-image: url(/img/gallery/pic4.png);
+  background-image: url(./../img/gallery/pic4.png);
   width: 100%;
   float: left;
   margin-top: 20px;
