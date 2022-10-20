@@ -1,0 +1,28 @@
+.header {
+  height: 700px;
+  background-image: url(/img/background/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  &__text {
+    text-align: center;
+    margin-top: 200px;
+  }
+  &__text-title {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &__text-discription {
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}

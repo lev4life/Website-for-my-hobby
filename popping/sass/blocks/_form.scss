@@ -1,0 +1,30 @@
+.form {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 65px;
+  width: 770px;
+  height: 130px;
+
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0px 40px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__input {
+    display: inline-block;
+    border-radius: 2px;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #f0f0f0;
+    line-height: 50px;
+    font-weight: 700;
+    border: 2px solid #e6e5e5;
+  }
+}

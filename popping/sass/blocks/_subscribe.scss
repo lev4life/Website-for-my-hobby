@@ -1,0 +1,98 @@
+.subscribe {
+  padding: 100px 0px;
+  background: #d1d1d1;
+}
+
+.subscribe__title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+.subscribe__form {
+  width: 550px;
+  height: 500px;
+
+  margin-left: 450px;
+
+  background: #fff;
+
+  &1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.subscribe__form-name {
+  margin: 50px 0px 30px 50px;
+
+  &-input {
+    width: 210px;
+    height: 60px;
+    border: 2px solid #f0f0f0;
+    padding: 20px 20px;
+  }
+}
+.subscribe__form-mail {
+  margin: 50px 50px 30px 0px;
+
+  &-input {
+    width: 210px;
+    height: 60px;
+    border: 2px solid #f0f0f0;
+    padding: 20px 20px;
+  }
+}
+.subscribe__form-subject {
+  margin: 0px 50px 30px 50px;
+
+  &-input {
+    width: 450px;
+    height: 60px;
+    border: 2px solid #f0f0f0;
+    padding: 20px 20px;
+  }
+}
+.subscribe__form-message {
+  margin: 0px 50px 30px 50px;
+
+  &-input {
+    width: 450px;
+    height: 150px;
+    border: 2px solid #f0f0f0;
+    padding: 20px 20px;
+  }
+}
+.subscribe__form-button {
+  margin: 0px 0px 50px 50px;
+  height: 50px;
+  width: 150px;
+  background-color: #395e66;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  transition: 0.2s ease-in;
+  &-btn {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #304f56;
+    color: #fff;
+  }
+}
+.subscribe__form-contact {
+  margin: 0px 50px 50px 30px;
+  height: 50px;
+  width: 270px;
+  text-align: left;
+  line-height: 45px;
+}

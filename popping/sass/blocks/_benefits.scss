@@ -1,0 +1,27 @@
+.benefits {
+  padding-top: 100px;
+  padding-bottom: 215px;
+
+  &__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__item {
+    text-align: center;
+  }
+  &__img {
+    height: 45px;
+  }
+  &__title {
+    margin-top: 50px;
+    white-space: nowrap;
+  }
+  &__text {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

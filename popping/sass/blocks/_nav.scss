@@ -1,0 +1,18 @@
+.nav {
+  position: relative;
+  padding-top: 57px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 45px;
+}
+.navigation__icons {
+}

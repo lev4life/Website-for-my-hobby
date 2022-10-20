@@ -1,0 +1,35 @@
+.navigation__info-logo {
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 45px;
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    &:hover {
+      color: #e98f19;
+      transition: 0.2s ease-in;
+    }
+  }
+}
+.navigation__info-list {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 45px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    &:hover {
+      color: #e98f19;
+      transition: 0.2s ease-in;
+    }
+  }
+}

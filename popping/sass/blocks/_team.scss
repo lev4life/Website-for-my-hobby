@@ -1,0 +1,40 @@
+.team {
+  padding: 100px 0px;
+  background: linear-gradient(hsl(0, 0%, 0%), #9b9b9c);
+
+  &__title {
+    padding-bottom: 80px;
+    text-align: center;
+    color: #fff;
+  }
+  &__title-team {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 8s0px;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-line {
+      text-align: center;
+    }
+    &-img {
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+    &-name {
+      padding-top: 40px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    &-profession {
+      padding-top: 15px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

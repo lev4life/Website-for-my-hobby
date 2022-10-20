@@ -1,0 +1,57 @@
+.footer {
+  padding: 100px 0px;
+  background: #2d4e55;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 134px;
+    color: #fff;
+  }
+  &__title {
+    &-name {
+      margin-bottom: 45px;
+      text-align: left;
+    }
+    &-text {
+    }
+  }
+  &__location {
+    &-title {
+      margin-bottom: 45px;
+      text-align: left;
+    }
+    &-text {
+    }
+  }
+  &__knowledge {
+    &-title {
+      margin-bottom: 45px;
+      text-align: left;
+    }
+    &-text {
+    }
+  }
+  &__connect {
+    &-title {
+      margin-bottom: 45px;
+      text-align: left;
+    }
+    &-list {
+    }
+    &-icons {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
+  .footer__button {
+    margin-top: 90px;
+    text-align: center;
+    &-btn {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+}
