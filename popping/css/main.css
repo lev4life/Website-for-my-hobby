@@ -791,8 +791,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-column-gap: 134px;
-          column-gap: 134px;
+  -webkit-column-gap: 165px;
+          column-gap: 165px;
   color: #fff;
 }
 
@@ -811,9 +811,21 @@ body {
   text-align: left;
 }
 
+.footer__knowledge-text-list:hover {
+  color: #e98f19;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
 .footer__connect-title {
   margin-bottom: 45px;
   text-align: left;
+}
+
+.footer__connect-list-text:hover {
+  color: #e98f19;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .footer__connect-icons {
@@ -837,4 +849,12 @@ body {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.footer .footer__button-btn:hover {
+  color: #e98f19;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }

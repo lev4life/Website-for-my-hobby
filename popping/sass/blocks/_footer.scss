@@ -5,7 +5,7 @@
   &__row {
     display: flex;
     justify-content: space-between;
-    column-gap: 134px;
+    column-gap: 165px;
     color: #fff;
   }
   &__title {
@@ -30,6 +30,10 @@
       text-align: left;
     }
     &-text {
+      &-list:hover {
+        color: $accent-color;
+        transition: 0.2s ease-in;
+      }
     }
   }
   &__connect {
@@ -38,6 +42,10 @@
       text-align: left;
     }
     &-list {
+      &-text:hover {
+        color: $accent-color;
+        transition: 0.2s ease-in;
+      }
     }
     &-icons {
       display: flex;
@@ -52,6 +60,11 @@
       font-size: 16px;
       font-weight: 600;
       color: #fff;
+      transition: 0.2s ease-in;
+      &:hover {
+        color: $accent-color;
+        transition: 0.2s ease-in;
+      }
     }
   }
 }
